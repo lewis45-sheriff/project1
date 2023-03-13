@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Admin Login</title>
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		form {
+			display: inline-block;
+			text-align: center;
+		}
+
+		input[type="text"], input[type="password"] {
+			display: block;
+			margin: 10px auto;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			width: 300px;
+			font-size: 16px;
+		}
+
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+
+	<form method="post"> 
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+
+		<input type="submit" value="Login">
+	</form>
+
+</body>
+
+</html>
